@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FIT CLASS - Academia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="bi bi-lightning-charge-fill"></i> FIT CLASS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-warning" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#">Planos</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning" href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselAcademia" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1599058917214-cd5bde168d99?crop=entropy&cs=tinysrgb&fit=crop&h=350&w=800"
+                    class="d-block w-100" alt="Treino musculação">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001d0?crop=entropy&cs=tinysrgb&fit=crop&h=350&w=800"
+                    class="d-block w-100" alt="Treino funcional">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?crop=entropy&cs=tinysrgb&fit=crop&h=350&w=800"
+                    class="d-block w-100" alt="Spinning bike">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAcademia" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAcademia" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container text-center my-5">
+        <h2 class="text-warning"><i class="bi bi-trophy-fill"></i> Nossos Serviços</h2>
+        <div class="row mt-4">
+            <div class="col-6 col-md-3 mb-3">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1599058917214-cd5bde168d99?crop=entropy&cs=tinysrgb&fit=crop&h=150&w=150"
+                        alt="Musculação" class="service-img mb-2">
+                    <i class="fas fa-dumbbell"></i>
+                    <p>Musculação</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001d0?crop=entropy&cs=tinysrgb&fit=crop&h=150&w=150"
+                        alt="Crossfit" class="service-img mb-2">
+                    <i class="bi bi-lightning-fill"></i>
+                    <p>Crossfit</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?crop=entropy&cs=tinysrgb&fit=crop&h=150&w=150"
+                        alt="Spinning" class="service-img mb-2">
+                    <i class="bi bi-bicycle"></i>
+                    <p>Spinning</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 mb-3">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1583454110556-21df1be2dfd7?crop=entropy&cs=tinysrgb&fit=crop&h=150&w=150"
+                        alt="Pilates" class="service-img mb-2">
+                    <i class="bi bi-heart-pulse-fill"></i>
+                    <p>Pilates</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h2 class="text-warning"><i class="bi bi-cash-stack"></i> Planos FIT CLASS</h2>
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="card pricing-card">
+                    <div class="card-header"><i class="bi bi-star"></i> Básico</div>
+                    <div class="card-body">
+                        <h3 class="card-title">R$ 99/mês</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle"></i> Acesso à musculação</li>
+                            <li><i class="bi bi-check-circle"></i> Treino personalizado</li>
+                            <li><i class="bi bi-x-circle text-danger"></i> Aulas coletivas</li>
+                        </ul>
+                        <a href="#" class="btn btn-custom">Assinar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card pricing-card destaque">
+                    <div class="card-header"><i class="bi bi-gem"></i> Intermediário</div>
+                    <div class="card-body">
+                        <h3 class="card-title">R$ 149/mês</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle"></i> Acesso total</li>
+                            <li><i class="bi bi-check-circle"></i> Aulas coletivas</li>
+                            <li><i class="bi bi-check-circle"></i> Avaliação física mensal</li>
+                        </ul>
+                        <a href="#" class="btn btn-custom">Assinar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card pricing-card">
+                    <div class="card-header"><i class="bi bi-award-fill"></i> Premium</div>
+                    <div class="card-body">
+                        <h3 class="card-title">R$ 199/mês</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle"></i> Tudo do Intermediário</li>
+                            <li><i class="bi bi-check-circle"></i> Personal Trainer</li>
+                            <li><i class="bi bi-check-circle"></i> Nutricionista incluso</li>
+                        </ul>
+                        <a href="#" class="btn btn-custom">Assinar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h2 class="text-warning"><i class="bi bi-envelope-fill"></i> Contato</h2>
+        <form class="contact-form mt-4">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nome" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom w-100">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2025 FIT CLASS - Todos os direitos reservados.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
